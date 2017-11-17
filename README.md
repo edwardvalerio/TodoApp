@@ -1,1 +1,3 @@
-##NODE JS##
+#NodeJs TodoApp + Mongo DB (hosted)#
+
+Openshift Deployment
