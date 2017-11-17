@@ -1,0 +1,24 @@
+{
+  "name": "code-platform",
+  "version": "1.0.0",
+  "description": "To do app",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app",
+    "todo",
+    "list"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
