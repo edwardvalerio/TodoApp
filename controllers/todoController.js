@@ -45,8 +45,19 @@ module.exports = function(app) {
 
    });
 
+  });
 
 
+     app.get('/', function(req, res) {
+
+  // data from mongo
+
+   Todo.find({}, function(err, data){
+
+
+     res.render('todo', {todos: data});
+
+   });
 
   });
 
